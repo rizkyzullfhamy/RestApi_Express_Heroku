@@ -9,7 +9,7 @@ admin.initializeApp({
     databaseURL: "https://projecthidroponik.firebase.com"
 });
 //PORT INIT
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 6000
 //INIT DB FIRESTORE FIREBASE
 let db = admin.firestore();
 // INIT SET WAKTU 
